@@ -1,0 +1,15 @@
+{
+	"name": "Progressive Web App",
+	"short_name": "Progressive Web App",
+	"start_url": ".",
+	"background_color": "#ffffff",
+	"theme_color": "#ff914d",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "images/logo.png",
+			"sizes": "150x150",
+			"type": "image/png"
+		}
+	]
+}

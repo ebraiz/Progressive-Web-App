@@ -1,0 +1,299 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#ff914d">
+    <meta name="background-color" content="#ffffff"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="src/style.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
+    <title>Home | Progressive Web App</title>
+</head>
+
+<body>
+    <div class="main-layout">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolled">
+                <div class="container">
+                    <a aria-current="page" class="navbar-brand active" href="/"><img src="images/logo.png" class="w-100" alt=""></a>
+                    <div class="mr-auto ml-0"><a href="/" class="sc-bczRLJ IywNy cta-btn cta-btn-mobile d-lg-none" target="_blank" rel="noreferrer">Hire Us</a>
+                        <button class="sc-gsnTZi sc-dkzDqf jnFvAE dFZSDP navbar-toggler border-0" type="button" onclick="showMenu()"><img src="images/ic-bars.svg" width="24" height="24" alt=""></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto align-items-lg-center">
+                            <li class="nav-item"><a aria-current="page" class="nav-link active" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/">Project</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/">The Team</a></li>
+                            <li class="nav-item d-none d-lg-block"><a class="sc-bczRLJ IywNy nav-link cta-btn cta-btn-lg" href="/" target="_blank" rel="noreferrer">Hire Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu false" id="mobile-menu">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between mobile-head">
+                        <img src="images/logo.png" width="40" alt="">
+                        <button type="button" class="btn-close" onclick="hideMenu()">
+                            <img src="images/ic-close.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="menus">
+                    <ul>
+                        <li><a aria-current="page" class="active" href="/">Home</a></li>
+                        <li><a href="/">Project</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">The Team</a></li>
+                        <li><a href="/" class="btn btn-primary fw-bold btn-cta-mobile text-white rounded-pill" target="_blank" rel="noreferrer">Hire us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="jumbotron">
+                <div class="container custom-container">
+                    <h1 class="title">It is a long established fact that a reader will be</h1>
+                    <p class="lead text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.</p>
+                    <div class="jumbotron-cta">
+                        <a href="/" target="_blank" rel="noreferrer">
+                            <div class="btn btn-primary btn-lg rounded-pill d-block d-sm-inline-block btn-work-together">Let's work together</div>
+                        </a>
+                        <a href="/">
+                            <div class="btn btn-outline-primary btn-lg rounded-pill d-block d-sm-inline-block btn-check-our-work">Check our work</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="our-projects">
+                <div class="our-projects__title">
+                    <div class="container custom-container d-flex flex-column flex-md-row justify-lg-content-between align-items-center">
+                        <div class="w-100 section-title text-start">
+                            <p class="text-sm text-secondary text-uppercase text-sf-pro toptext">OUR PROJECTS</p>
+                            <h6 class="title">Our latest cool projects.</h6></div>
+                        <div class="btn-cta text-end mt-md-0"><a class="btn btn-light fw-bold rounded-pill d-block d-md-inline-block btn-project" href="/">Check our work</a></div>
+                    </div>
+                </div>
+                <div class="project-cards custom-project-cards-margin">
+                    <div class="container custom-container">
+                        <article class="project-card project-card-350">
+                            <div class="project-card__img">
+                                <a href="/"><img class="img-fluid" src="images/billy.png" alt=""></a>
+                            </div>
+                            <div class="project-card__content">
+                                <p class="project-card__content__title"><a href="/">Project 1 - Lorem Ipsum</a></p>
+                                <p class="project-card__content__desc home"><span>Project 1</span> - It is a long established fact that a reader will be distracted by the readable content.</p>
+                            </div>
+                        </article>
+                        <article class="project-card ">
+                            <div class="project-card__img">
+                                <a href="/"><img class="img-fluid" src="images/alpha-pay.png" alt=""></a>
+                            </div>
+                            <div class="project-card__content">
+                                <p class="project-card__content__title"><a href="/">Project 2 - Lorem Ipsum</a></p>
+                                <p class="project-card__content__desc home"><span>Project 2</span> It is a long established fact that a reader will be distracted by the readable content.</p>
+                            </div>
+                        </article>
+                        <article class="project-card project-3">
+                            <div class="project-card__img">
+                                <a href="/"><img class="img-fluid" src="images/master-pos.png" alt=""></a>
+                            </div>
+                            <div class="project-card__content">
+                                <p class="project-card__content__title"><a href="/">Project 3 - Lorem Ipsum</a></p>
+                                <p class="project-card__content__desc home"><span>Project 3</span> It is a long established fact that a reader will be distracted by the readable content.</p>
+                            </div>
+                        </article>
+                        <article class="project-card project-card-350 project-4">
+                            <div class="project-card__img">
+                                <a href="/"><img class="img-fluid" src="images/the-swag.png" alt=""></a>
+                            </div>
+                            <div class="project-card__content">
+                                <p class="project-card__content__title"><a href="/">Project 4 - Lorem Ipsum</a></p>
+                                <p class="project-card__content__desc home"><span>Project 4</span> It is a long established fact that a reader will be distracted by the readable content.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="project-overlay"></div>
+                </div>
+            </section>
+            <section class="our-partners">
+                <div class="our-partners__title pt-2 pt-md-3 text-center">
+                    <div class="container custom-container ">
+                        <div class="w-100 section-title text-center mx-auto">
+                            <p class="text-sm text-secondary text-uppercase text-sf-pro toptext">Our Happy Clients</p>
+                            <h6 class="title">Some of our partners and clients</h6></div>
+                    </div>
+                </div>
+                <div class="container custom-container ">
+                    <div class="container__partner-logos">
+                        <div class="partner-logos"><img src="images/alphapay.svg" alt="Alpha Pay"><img src="images/koupon.svg" alt="Koupon "><img src="images/topline.svg" alt="Topline"><img src="images/playsport.svg" alt="Playsport"><img src="images/billy.svg" alt="Billy"><img src="images/swag.svg" alt="The Swag"></div>
+                        <div class="partner-logos"><img src="images/buzzbassador.svg" alt="Buzzbassador"><img src="images/the-m.svg" alt="The m"><img src="images/vial.svg" alt="Vial"><img src="images/finantier.svg" alt="Finantier"><img src="images/tradeit.svg" alt="Trade It"><img src="images/creditmyrent.svg" alt="Credit My Rent"></div>
+                    </div>
+                    <div class="review-cards">
+                        <div class="review-card">
+                            <div class="review-card__profile">
+                                <div class="review-card__profile__avatar"><img src="images/eran-galperin.png" class="img-fluid" alt="images/eran-galperin.png"></div>
+                                <div>
+                                    <p class="name">Nyasha-Harmony Gutsa</p>
+                                    <p class="bio">CEO at Billy Insurance</p>
+                                </div>
+                            </div>
+                            <div class="review-card__content">
+                                <p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.”</p>
+                            </div>
+                            <div class="review-card__footer">
+                                <div class="rating-count">
+                                    <div class="stars"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"></div><a class="review-link" href="/" target="_blank" rel="noreferrer"><span class="rating">5.0</span><span class="link-text">Clutch Review</span></a></div>
+                                <div class="company-logo"><img src="images/logo-martial-arts.png" alt="images/logo-martial-arts.png logo"></div>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-card__profile">
+                                <div class="review-card__profile__avatar"><img src="images/shelby-baldwin.png" class="img-fluid" alt="images/shelby-baldwin.png"></div>
+                                <div>
+                                    <p class="name">Shelby Baldwin</p>
+                                    <p class="bio">Co-Founder &amp; CMO Buzzbassador</p>
+                                </div>
+                            </div>
+                            <div class="review-card__content">
+                                <p>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.”</p>
+                            </div>
+                            <div class="review-card__footer">
+                                <div class="rating-count">
+                                    <div class="stars"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"><img src="images/ic-star.svg" alt="Star"></div><a class="review-link" href="/" target="_blank" rel="noreferrer"><span class="rating">5.0</span><span class="link-text">Clutch Review</span></a></div>
+                                <div class="company-logo"><img src="images/logo-buzzbassador.png" alt="images/logo-buzzbassador.png logo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="overview">
+                <div class="container custom-container">
+                    <div class="overview__main">
+                        <div class="overview__stats">
+                            <div class="overview__stats__grid">
+                                <div class="stat">
+                                    <h6 class="number"><p>20</p></h6>
+                                    <p class="info">Designer</p>
+                                </div>
+                                <div class="stat">
+                                    <h6 class="number"> <p>5</p> </h6>
+                                    <p class="info">Developer</p>
+                                </div>
+                                <div class="stat">
+                                    <h6 class="number"> <p>3</p> </h6>
+                                    <p class="info">Project Manager</p>
+                                </div>
+                                <div class="stat">
+                                    <h6 class="number d-flex"><p>4</p> +</h6>
+                                    <p class="info">Years in Business</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overview__content">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.</p>
+                        </div>
+                    </div>
+                    <div class="overview__footer ">
+                        <div><a class="btn btn-light fw-bold d-block d-md-inline-block rounded-pill  btn-about" href="/">About us</a></div>
+                        <div class="rating-clutch">
+                            <div class="d-flex align-items-center mb-2"><img class="me-3" src="images/logo-clutch.svg" alt="">
+                                <p class="rating m-0"><span class="fw-bold me-1">4.9</span><span class="text">Rating on Clutch</span></p>
+                            </div>
+                            <p class="text-secondary text-sf-pro">Top Design Agencies in Country</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="main-cta">
+                <div class="container">
+                    <p>Ready to work your project?
+                        <br> Let's get to work.</p>
+                    <a href="/" class="btn-cta" target="_blank" rel="noreferrer">
+                        <div class="btn btn-primary fw-bold rounded-pill btn-cta d-block d-md-inline-block">Let's work together</div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer__info">
+                            <p class="tagline"> <span class="text"> Harmonizing Digital <br> Product Design</span></p><a href="mailto:info@email.com" class="text-sf-pro mt-3 hover-underline-animation">info@email.com</a></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="footer__menus">
+                            <div class="menus">
+                                <p>Features</p>
+                                <nav>
+                                    <ul>
+                                        <li><a class="hover-underline-animation" href="/">Projects</a></li>
+                                        <li><a class="hover-underline-animation" href="/">Services</a></li>
+                                        <li><a class="hover-underline-animation" href="/">The Team</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="menus">
+                                <p>General</p>
+                                <nav>
+                                    <ul>
+                                        <li><a class="hover-underline-animation" href="/">Career</a></li>
+                                        <li><a class="hover-underline-animation" href="/">Company Deck</a></li>
+                                        <li><a class="hover-underline-animation" href="mailto::info@email.com">Contact us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="menus">
+                                <p>Find Us</p>
+                                <nav>
+                                    <ul>
+                                        <li class="location">City, Country</li>
+                                        <li><a href="/" class="hover-underline-animation" target="_blank" rel="noreferrer">View On Map</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__divider"></div>
+                <div class="d-lg-flex justify-content-between align-items-center">
+                    <div class="footer__social">
+                        <div class="logo">
+                            <a href="/"><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="/" class="text-black hover-underline-animation" target="_blank" rel="noreferrer">Dribbble</a></li>
+                                <li><a href="/" class="text-black hover-underline-animation" target="_blank" rel="noreferrer">Clutch</a></li>
+                                <li><a href="/" class="text-black hover-underline-animation" target="_blank" rel="noreferrer">Instagram</a></li>
+                                <li><a href="/" class="text-black hover-underline-animation" target="_blank" rel="noreferrer">Medium</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-sf-pro text-secondary text-copyright">© Progressive Web App 2022. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+    <script>
+        function showMenu() {
+          var element = document.getElementById("mobile-menu");
+          element.classList.add("show");
+          element.classList.remove("false");
+        }
+        function hideMenu() {
+          var element = document.getElementById("mobile-menu");
+          element.classList.add("false");
+          element.classList.remove("show");
+        }
+    </script>
+</body>
+
+</html>
